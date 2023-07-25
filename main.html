@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>task</title>
+    <style>
+        .header,.map,.bio{
+            border-bottom: 3px solid;
+            border-color: black;
+        }
+        .img,.head,.map,.bio1,.foot{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        .body{
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            font-size: large;
+        }
+        .bio1{
+            font-size: x-large;
+        }
+        .map iframe{
+            border-style:solid;
+            border-color: silver;
+            border-width: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header" style="background-color: lightskyblue; height: 50px;">
+        <div style="float: left; height: 50px; width: 50px;">
+            <img src="../imgs/logo.png" alt="logo" height="50px" width="50px">
+        </div>
+        <div style="float: right; height: 50px; width: 300px;">
+            <div class="head" style="float: left; height: 50px; width: 100px;" >Home</div>
+            <div class="head" style="float: left; height: 50px; width: 100px;" >About</div>
+            <div class="head" style="float: right;height: 50px; width: 100px;">Contact</div>
+        </div>
+    </div>
+    <div class="bio" style="background-color:cornflowerblue; height:600px;" >
+        <div  style=" float: left; height: 600px; width: 450px;">
+            <div class="img" style=" height: 500px; width: 450px;">
+                <img src="../imgs/mee.jpg" alt="Mee"  height="400px" width="320px">
+            </div>
+            <div style=" height: 100px; width: 450px;">
+                <div style="float: left; width: 150px;">
+                    <p style="text-align: right;">
+                        Name : <br>
+                        Roll.no : <br>
+                        College : <br>
+                    </p>
+                </div>
+                <div style="float: right; width: 300px;">
+                    <p >
+                        Shyam Sankar Kowshik <br>
+                        21A91A04J9<br>
+                        Aditya Enginnering College<br>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="bio1"  style=" float: right; height: 600px; width: 1050px;"> 
+            <p>
+                I'm <b>Shyam Sankar Kowshik</b> simply "Sam". A 19 years old guy from kakinada studying B.tech 3<sup>rd</sup> year in Aditya Enginnering College, surampalem. Electectronics and Communication Enginnering (<i>Ece</i>) is my branch spacilisation.
+                Along with acadamics I'm a part of drive ready a program that helps students to crack their dream job which is intiated by the Techincal Hub in our college. I'm a Full stack trainee in that program. My hobbies are reading books, watching movies and my favorite one is coding.
+                I want to become a software Enginnering in the future.
+            </p>
+        </div>
+    </div>
+    <div class="map" style=" background-color:lightgray; height: 600px;">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1907.5898417164908!2d82.25118773805119!3d17.01485421593603!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1690003777528!5m2!1sen!2sin"
+            width="600" 
+            height="450"
+            allowfullscreen=""
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+    </div>
+    <div class="foot" style="background-color: lightskyblue; height: 40px;">
+        <p>Copyright:samkowshik02@gmail.com</p>
+    </div>
+
+</body>
+</html>
